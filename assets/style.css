@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todobox {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 80vh;
+  background-color: #cccccc;
+  border: 1px solid black;
+}
+
+.todobox h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 2.5rem;
+}
+
+.todobox p {
+  margin-top: 20px;
+  margin-left: 8vw;
+  font-size: 1.5rem;
+}
+
+.inputbox {
+  display: flex;
+  justify-content: center;
+}
+
+.inputbox input {
+  border-radius: 10px;
+  border: none;
+}
+
+#idtareainput {
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+}
+
+#botonAgregar {
+  height: 40px;
+  width: 70px;
+  align-self: center;
+  cursor: pointer;
+  background-color: #11aa22;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#botonEliminar {
+  height: 40px;
+  width: 70px;
+  align-self: center;
+  cursor: pointer;
+  background-color: #aa1122;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#botonAgregar:hover {
+  background-color: #11cc22;
+}
+
+#botonEliminar:hover {
+  background-color: #ee1122;
+}
+
+.resultadosbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.totalesbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezadoTareas {
+  display: flex;
+}
+
+.listaTareasBox {
+  font-size: 1.5rem;
+  width: 50vw;
+}
+
+
+.listaTareasBox td {
+  text-align: center;
+}
